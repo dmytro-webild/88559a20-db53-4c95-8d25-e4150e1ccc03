@@ -1,58 +1,19 @@
 import type { Metadata } from "next";
-import { Halant } from "next/font/google";
-import { Inter } from "next/font/google";
-import { Open_Sans } from "next/font/google";
-import "./globals.css";
-import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
-
-const halant = Halant({
-  variable: "--font-halant",  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
-
-const inter = Inter({
-  variable: "--font-inter",  subsets: ["latin"],
-});
-
-const openSans = Open_Sans({
-  variable: "--font-open-sans",  subsets: ["latin"],
-});
+import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "SNEKI | Premium Brazilian Fruit Snacks for Retailers",  description: "Premium natural fruit snacks from Brazil. 100% fruit-based, zero preservatives. Perfect for retail partners and resellers looking for high-quality, healthy snacking solutions.",  keywords: "fruit snacks, dehydrated fruits, freeze-dried chips, natural snacks, healthy food, retail products, B2B, wholesale",  metadataBase: new URL("https://sneki.com"),
-  alternates: {
-    canonical: "https://sneki.com"},
-  robots: {
-    index: true,
-    follow: true,
-  },
-  openGraph: {
-    type: "website",    siteName: "SNEKI",    title: "SNEKI | Premium Natural Fruit Snacks",    description: "Transform your snack offerings with SNEKI premium natural fruit snacks. High retail margins, strong consumer demand.",    url: "https://sneki.com",    images: [
-      {
-        url: "http://img.b2bpic.net/free-photo/top-view-fruits-as-peach-pear-coconut-banana-cutting-board-with-knife-plaid-cloth-green-background_141793-27999.jpg",        alt: "SNEKI premium fruit snacks collection"},
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",    title: "SNEKI | Premium Natural Fruit Snacks",    description: "High-quality Brazilian fruit snacks for retail partners. 100% natural ingredients.",    images: [
-      "http://img.b2bpic.net/free-photo/top-view-fruits-as-peach-pear-coconut-banana-cutting-board-with-knife-plaid-cloth-green-background_141793-27999.jpg"],
-  },
-};
+  title: "SNEKI - Premium Fruit Snacks for Wholesale",  description: "Premium natural fruit snacks with strong retail margins and high shelf rotation. B2B wholesale opportunity for resellers."};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <ServiceWrapper>
-        <body
-          className={`${halant.variable} ${inter.variable} ${openSans.variable} antialiased`}
-        >
-          <Tag />
-          {children}
-        
+    <html lang="en">
+      <body>
+        {children}
+      
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -1420,7 +1381,6 @@ export default function RootLayout({
           }}
         />
       </body>
-      </ServiceWrapper>
     </html>
   );
 }
