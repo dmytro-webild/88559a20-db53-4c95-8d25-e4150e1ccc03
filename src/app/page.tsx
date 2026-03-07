@@ -93,7 +93,7 @@ export default function LandingPage() {
             },
           ]}
           imagePosition="right"
-          imageSrc="http://img.b2bpic.net/free-photo/front-view-stand-with-nuts-different-along-with-dried-fruits-dark-floor_140725-14502.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/front-view-stand-with-nuts-different-along-with-dried-fruits-dark-floor_140725-14502.jpg?_wi=1"
           imageAlt="SNEKI mixed fruit chips premium packaging"
           mediaAnimation="slide-up"
           textboxLayout="default"
@@ -111,13 +111,13 @@ export default function LandingPage() {
           useInvertedBackground={false}
           products={[
             {
-              id: "1",              name: "Freeze-Dried Mixed Fruit Chips",              price: "Request Pricing",              imageSrc: "http://img.b2bpic.net/free-photo/front-view-stand-with-nuts-different-along-with-dried-fruits-dark-floor_140725-14502.jpg",              imageAlt: "Colorful freeze-dried mixed fruit chips"},
+              id: "1",              name: "Freeze-Dried Mixed Fruit Chips",              price: "Request Pricing",              imageSrc: "http://img.b2bpic.net/free-photo/front-view-stand-with-nuts-different-along-with-dried-fruits-dark-floor_140725-14502.jpg?_wi=2",              imageAlt: "Colorful freeze-dried mixed fruit chips"},
             {
-              id: "2",              name: "Banana Chips",              price: "Request Pricing",              imageSrc: "http://img.b2bpic.net/free-photo/banana-healthy-breakfast-organic-pasta-plate_23-2148440306.jpg",              imageAlt: "Crispy natural banana chips"},
+              id: "2",              name: "Banana Chips",              price: "Request Pricing",              imageSrc: "http://img.b2bpic.net/free-photo/banana-healthy-breakfast-organic-pasta-plate_23-2148440306.jpg?_wi=1",              imageAlt: "Crispy natural banana chips"},
             {
-              id: "3",              name: "Strawberry Chips",              price: "Request Pricing",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-country-woman-with-strawberry-white_176420-4922.jpg",              imageAlt: "Freeze-dried strawberry fruit chips"},
+              id: "3",              name: "Strawberry Chips",              price: "Request Pricing",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-country-woman-with-strawberry-white_176420-4922.jpg?_wi=1",              imageAlt: "Freeze-dried strawberry fruit chips"},
             {
-              id: "4",              name: "Dehydrated Apple",              price: "Request Pricing",              imageSrc: "http://img.b2bpic.net/free-photo/small-heap-dried-apple-slices-with-whole-apple-sitting-top-white-background_114579-24023.jpg",              imageAlt: "Naturally dried apple slices"},
+              id: "4",              name: "Dehydrated Apple",              price: "Request Pricing",              imageSrc: "http://img.b2bpic.net/free-photo/small-heap-dried-apple-slices-with-whole-apple-sitting-top-white-background_114579-24023.jpg?_wi=1",              imageAlt: "Naturally dried apple slices"},
             {
               id: "5",              name: "Dehydrated Mango",              price: "Request Pricing",              imageSrc: "http://img.b2bpic.net/free-photo/half-shot-delicious-snacks-parties-left-side-dark-background_140725-94541.jpg",              imageAlt: "Soft tropical mango strips"},
             {
@@ -142,16 +142,16 @@ export default function LandingPage() {
           features={[
             {
               id: "1",              title: "High Consumer Demand",              tags: ["Premium Positioning", "Strong Sales"],
-              imageSrc: "http://img.b2bpic.net/free-photo/front-view-stand-with-nuts-different-along-with-dried-fruits-dark-floor_140725-14502.jpg"},
+              imageSrc: "http://img.b2bpic.net/free-photo/front-view-stand-with-nuts-different-along-with-dried-fruits-dark-floor_140725-14502.jpg?_wi=3"},
             {
               id: "2",              title: "Excellent Retail Margins",              tags: ["Profitability", "Competitive Advantage"],
-              imageSrc: "http://img.b2bpic.net/free-photo/banana-healthy-breakfast-organic-pasta-plate_23-2148440306.jpg"},
+              imageSrc: "http://img.b2bpic.net/free-photo/banana-healthy-breakfast-organic-pasta-plate_23-2148440306.jpg?_wi=2"},
             {
               id: "3",              title: "Attractive Packaging",              tags: ["Eye-Catching Design", "Shelf Appeal"],
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-country-woman-with-strawberry-white_176420-4922.jpg"},
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-country-woman-with-strawberry-white_176420-4922.jpg?_wi=2"},
             {
               id: "4",              title: "Easy Logistics",              tags: ["Simple Placement", "Quick Setup"],
-              imageSrc: "http://img.b2bpic.net/free-photo/small-heap-dried-apple-slices-with-whole-apple-sitting-top-white-background_114579-24023.jpg"},
+              imageSrc: "http://img.b2bpic.net/free-photo/small-heap-dried-apple-slices-with-whole-apple-sitting-top-white-background_114579-24023.jpg?_wi=2"},
           ]}
           animationType="slide-up"
           buttons={[{ text: "Become a SNEKI Partner", href: "contact" }]}
