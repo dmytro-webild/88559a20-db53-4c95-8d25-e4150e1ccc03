@@ -43,7 +43,7 @@ export default function LandingPage() {
       <div id="hero" data-section="hero">
         <HeroSplitTestimonial
           title="SNEKI"
-          description="Smart snacking for everyday life"
+          description="Premium fruit snacks. Strong margins. High shelf rotation."
           tag="Natural Fruit Snacks"
           tagAnimation="slide-up"
           imagePosition="right"
