@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, Leaf, TrendingUp, Zap } from "lucide-react";
+import { Check, Leaf, TrendingUp, Zap, DollarSign } from "lucide-react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
 import HeroSplitTestimonial from "@/components/sections/hero/HeroSplitTestimonial";
@@ -87,6 +87,9 @@ export default function LandingPage() {
             },
             {
               title: "High Retail Sell-Through",              description: "Proven consumer demand and repeat purchases ensure strong shelf performance.",              icon: TrendingUp,
+            },
+            {
+              title: "Strong Margins",              description: "Excellent profit opportunity for retailers. Competitive wholesale pricing with premium positioning enables healthy markup and strong bottom-line growth.",              icon: DollarSign,
             },
           ]}
           imagePosition="right"
